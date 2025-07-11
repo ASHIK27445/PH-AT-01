@@ -199,3 +199,60 @@ body{
 body{
     background-color: #f5f8ff;
 }
+
+.get-touch-section{
+    display: flex;
+    gap: 115px;
+    margin: 71px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.get-touch-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.form-label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.form-section input[type="text"], input[type="email"]{
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    width: 500px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    padding: 20px 32px;
+    margin-bottom: 18px;
+}
+
+.form-section textarea{
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    width: 500px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    padding: 20px 32px 85px 32px;
+    margin-bottom: 18px;
+}
+
+.form-section input[type="submit"]{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 19px 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
